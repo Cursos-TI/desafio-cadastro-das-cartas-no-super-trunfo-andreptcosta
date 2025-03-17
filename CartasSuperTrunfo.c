@@ -90,54 +90,55 @@ void mostrarSeparador(){
 
 void compararCartas(char cidade1[], int populacao1, float area1, float pib1, int pontosTuristicos1, float densidadeDemografica1, float pibPerCapita1, float superPoder1,
     char cidade2[], int populacao2, float area2, float pib2, int pontosTuristicos2, float densidadeDemografica2, float pibPerCapita2, float superPoder2) {
+    
     printf("Comparação das Cartas\n");
 
     // Comparar população
     if (populacao1 > populacao2) {
-    printf("Maior População: %s\n", cidade1);
+        printf("Maior População: %s\n", cidade1);
     } else {
-    printf("Maior População: %s\n", cidade2);
+        printf("Maior População: %s\n", cidade2);
     }
 
     // Comparar área
     if (area1 > area2) {
-    printf("Maior Área: %s\n", cidade1);
+        printf("Maior Área: %s\n", cidade1);
     } else {
-    printf("Maior Área: %s\n", cidade2);
+        printf("Maior Área: %s\n", cidade2);
     }
 
     // Comparar PIB
     if (pib1 > pib2) {
-    printf("Maior PIB: %s\n", cidade1);
+        printf("Maior PIB: %s\n", cidade1);
     } else {
-    printf("Maior PIB: %s\n", cidade2);
+        printf("Maior PIB: %s\n", cidade2);
     }
 
     // Comparar pontos turísticos
     if (pontosTuristicos1 > pontosTuristicos2) {
-    printf("Mais Pontos Turísticos: %s\n", cidade1);
+        printf("Mais Pontos Turísticos: %s\n", cidade1);
     } else {
-    printf("Mais Pontos Turísticos: %s\n", cidade2);
+        printf("Mais Pontos Turísticos: %s\n", cidade2);
     }
 
     // Comparar PIB per capita
     if (pibPerCapita1 > pibPerCapita2) {
-    printf("Maior PIB per Capita: %s\n", cidade1);
+        printf("Maior PIB per Capita: %s\n", cidade1);
     } else {
-    printf("Maior PIB per Capita: %s\n", cidade2);
+        printf("Maior PIB per Capita: %s\n", cidade2);
     }
 
     // Comparar super poder
     if (superPoder1 > superPoder2) {
-    printf("Maior Super Poder: %s\n", cidade1);
+        printf("Maior Super Poder: %s\n", cidade1);
     } else {
-    printf("Maior Super Poder: %s\n", cidade2);
+        printf("Maior Super Poder: %s\n", cidade2);
     }
 
     // Comparar densidade demográfica
     if (densidadeDemografica1 < densidadeDemografica2) {
-    printf("Menor Densidade Demográfica: %s\n", cidade1);
+        printf("Menor Densidade Demográfica: %s\n", cidade1);
     } else {
-    printf("Menor Densidade Demográfica: %s\n", cidade2);
+        printf("Menor Densidade Demográfica: %s\n", cidade2);
     }
 }
